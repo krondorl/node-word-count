@@ -1,0 +1,16 @@
+{
+  "name": "node-word-count",
+  "version": "0.1.0",
+  "description": "Count words in text files",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "word count",
+    "word counter"
+  ],
+  "author": "Adam Burucs",
+  "license": "CC BY-NC-ND 4.0"
+}
