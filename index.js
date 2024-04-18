@@ -28,7 +28,7 @@ async function countWords(fileName) {
   return count;
 }
 
-const fileName = "./enchiridion-hun.txt";
+const fileName = "./lipsum.txt";
 
 console.log(" ");
 console.log("Text file word counter");
