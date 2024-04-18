@@ -7,7 +7,7 @@ Count total words sum in text files.
 - No dependencies
 - Only Node.js API used
 - Uses ES module import
-- Example text file included in repo (46 KB file size)
+- Example text file included in repo (5 KB file size)
 
 ## Todo
 
@@ -23,12 +23,23 @@ Add the following modules
 
 ## Usage
 
+### Running in Docker
+
+[You will need Docker Desktop running.](https://www.docker.com/products/docker-desktop/)
+
+1. Open a Terminal
+1. Go to the repo folder
+1. Build: `docker build -t node-word-count .`
+1. Run: `docker run -it node-word-count`
+
+### Running in Node.js
+
 Run in console: `npm start`
 
-## Example output
+## Example output from Windows 11 Powershell
 
 ```
-C:\practice\node-word-count>npm start
+PS F:\Dev\node-word-count> docker run -it node-word-count
 
 > node-word-count@0.1.0 start
 > node index.js
@@ -36,10 +47,10 @@ C:\practice\node-word-count>npm start
 
 Text file word counter
 
-File  ./enchiridion-hun.txt
+File  ./lipsum.txt
 
-Word count:  6589
-
+Word count:  877
+PS F:\Dev\node-word-count>
 ```
 
 ## License
